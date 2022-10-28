@@ -252,6 +252,11 @@ textarea {
   overflow: auto;
   resize: vertical; }
 
+#logo{width: 165px;}
+@media (max-width: 576px) {
+  #logo {
+    width: 145px; } }
+
 fieldset {
   min-width: 0;
   padding: 0;
@@ -9049,7 +9054,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #232323;
-  padding: 6em 0; }
+  padding: 2em 0; }
   .ftco-footer .ftco-footer-widget {
     width: 100%;
     display: block; }
