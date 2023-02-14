@@ -37,6 +37,14 @@
 	};
 	loader();
 
+	/*const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	console.log(urlParams);
+
+	if(urlParams.get('c') == '1'){
+		alert("!Gracias por ponerte en contacto con nosotros!");
+	}*/
+
 	// Scrollax
    $.Scrollax();
 
@@ -259,4 +267,3 @@
 
 
 })(jQuery);
-
