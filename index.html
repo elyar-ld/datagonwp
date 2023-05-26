@@ -27,7 +27,6 @@
 
 <body>
 	<nav class="navbar navbar-expand-lg " id="ftco-navbar" style="min-height: 70px; padding: 0;">
-		<!--div class="container d-flex align-items-center"-->
 		<div style="position: relative;	width: 100%; height: 70px;">
 			<div style="position: absolute;	left: 0; padding: 5px 15px;">
 				<img id="logo" src="images/logo02.png" alt="logo">
@@ -58,7 +57,7 @@
 		}
 	</style>
 
-	<section class="home-slider owl-carousel">
+	<section class="home-slider owl-carousel" style="background-color: #232323;">
 		<div class="slider-item" style="background-image:url(images/bg01.jpg);">
 			<div class="overlay"></div>
 			<div class="container">
@@ -88,10 +87,10 @@
 		</div>
 	</section>
 
-	<section id="td" class="ftco-section" style="    background-color: #143B75; color: white; padding-bottom: 2em;">
+	<section id="td" class="ftco-section" style="    background-color: #232323; color: white; padding-bottom: 2em;">
 		<div class="row no-gutters justify-content-center mb-5">
 			<div class="col-md-7 text-center heading-section ftco-animate fadeInUp ftco-animated">
-				<h2 class="mb-4" style="color: #fff;">¿Qué es la transformación digital?</h2>
+				<h2 class="mb-4">¿Qué es la transformación digital?</h2>
 			</div>
 		</div>
 		<div class="container">
@@ -100,13 +99,12 @@
 					<!--div class="wrap-about-border ftco-animate"-->
 					<div class="ftco-animate">
 						<div class="text">
-							<div class="img" style="background-image: url(images/digital.jpg);"></div>
-							<p>Actualmente, la mayoría de procesos, trámites, transacciones, actividades y
-								comportamientos que tenemos en nuestra vida personal, laboral, de negocios,
-								diplomáticas, entre otros, están digitalizados. Y los que aún no, están en camino de
-								serlo.</p>
-							<p>La transformación digital es un hecho...</p>
-							<p style="text-align: center; padding-top: 2em;"><a href="transformacion-digital.html" class="btn btn-primary py-3 px-4" style="background: #232323; border: 1px solid #1b9ce300; color: #fff;">Saber más</a></p>
+							<div class="img" style="background-image: url(images/digital.jpg);" data-stellar-background-ratio="0.5"></div>
+							<p>En la actualidad, la tecnología ha revolucionado la forma en que vivimos y 
+								hacemos negocios. La Transformación Digital se ha convertido en un concepto 
+								fundamental para el éxito empresarial y de las organizaciones en la era digital. </p>
+								<p>Pero, ¿qué significa realmente este término y cómo puede beneficiar a las organizaciones de hoy en día?</p>
+							<p style="text-align: center; padding-top: 2em;"><a href="transformacion-digital.html" class="btn btn-primary py-3 px-4" style="background: #0989ff; border: 1px solid #1b9ce300; color: #fff;">Saber más</a></p>
 						</div>
 					</div>
 				</div>
@@ -115,7 +113,14 @@
 		</div>
 	</section>
 
-	<section id="servicios" class="ftco-section ftco-no-pb" style="padding: 10vh 0; min-height: 70vh; background-color: #232323; color: white;">
+	<style>
+		@media only screen and (max-width: 768px) {
+			.project {
+				height: unset;
+			}
+		}
+	</style>
+	<section id="servicios" class="ftco-section ftco-no-pb" style="padding: 20vh 0; min-height: 70vh; background-color: #232323; color: white;">
 		<div class="container-fluid px-0">
 			<div class="row no-gutters justify-content-center mb-5">
 				<div class="col-md-7 text-center heading-section ftco-animate">
@@ -132,53 +137,53 @@
 					}
 				</style>
 				<div class="col-md-3">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/website.jpg);">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center">
 						<div class="overlay"></div>
 						<a href="pagina-web.html"
 							class="btn-site d-flex align-items-center justify-content-center"><span
 								class="icon-subdirectory_arrow_right"></span></a>
 						<div class="text text-center p-4">
-							<h3><a href="pagina-web.html">Desarrollo de Páginas Web</a></h3>
-							<span>Que todo el mundo pueda saber ti</span>
+							<h3><a href="pagina-web.html">Páginas Web</a></h3>
+							<img src="images/website_icon.png" alt="pw icon" style="width: 75%; max-width: 200px;">
+							<p>Que todo el mundo pueda saber ti</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/webapp.jpg);">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center">
 						<div class="overlay"></div>
 						<a href="aplicacion-web.html"
 							class="btn-site d-flex align-items-center justify-content-center"><span
 								class="icon-subdirectory_arrow_right"></span></a>
 						<div class="text text-center p-4">
-							<h3><a href="aplicacion-web.html">Desarrollo de Aplicaciones Web</a></h3>
-							<span>Aplicaciones siempre disponibles desde cualquier lugar</span>
+							<h3><a href="aplicacion-web.html">Aplicaciones Web</a></h3>
+							<img src="images/webapp_icon.png" alt="pw icon" style="width: 75%; max-width: 200px;">
+							<p>Aplicaciones siempre disponibles desde cualquier lugar</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/app.jpg);">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center">
 						<div class="overlay"></div>
 						<a href="aplicacion-movil.html"
 							class="btn-site d-flex align-items-center justify-content-center"><span
 								class="icon-subdirectory_arrow_right"></span></a>
 						<div class="text text-center p-4">
-							<h3><a href="aplicacion-movil.html">Desarrollo de Aplicaciones Móviles</a></h3>
-							<span>Acceso a tus servicios a un toque de distancia</span>
+							<h3><a href="aplicacion-movil.html">Aplicaciones Móviles</a></h3>
+							<img src="images/app_icon.png" alt="pw icon" style="width: 75%; max-width: 200px;">
+							<p>Acceso a tus servicios a un toque de distancia</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/bd01.jpg);">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center">
 						<div class="overlay"></div>
 						<a href="bd.html" class="btn-site d-flex align-items-center justify-content-center"><span
 								class="icon-subdirectory_arrow_right"></span></a>
 						<div class="text text-center p-4">
-							<h3><a href="bd.html">Diseño de Bases de Datos</a></h3>
-							<span>Tu información estructurada, lista para analizarse</span>
+							<h3><a href="bd.html">Bases de Datos</a></h3>
+							<img src="images/bd_icon.png" alt="pw icon" style="width: 75%; max-width: 200px;">
+							<p>Tu información estructurada, lista para analizarse</p>
 						</div>
 					</div>
 				</div>
@@ -191,26 +196,26 @@
 		<div class="container">
 			<div class="row justify-content-end">
 				<div class="col-md-10 py-5 px-md-5">
-					<div class="py-md-5">
+					<div class="py-md-5" style="background-color: #00000070;padding: 30px;border-radius: 10px;">
 						<div class="heading-section heading-section-white ftco-animate mb-5"
 							style="margin-bottom: 1rem !important;">
 							<h2 class="mb-4">Contáctanos</h2>
 							<p>¿Necesitas más información? ¿Quieres contarnos tu idea? Mandanos un mensaje:</p>
 						</div>
-						<div class="block-23 ftco-animate fadeInUp ftco-animated" style="display: inline-block;">
+						<div class="block-23 ftco-animate">
 							<ul>
 
 								<li style="margin-bottom: 0;"><a href="tel:2731084701"
 										style="margin-bottom: 0.5rem;"><span class="icon icon-phone"></span><span
 											class="text">+52 273 1084701</span></a></li>
 								<li><a href="mailto:contacto@datagon.co"><span class="icon icon-envelope"></span><span
-											class="text">contacto@datagon.co</span></a></li>
+											class="text">contacto@datagon.com.mx</span></a></li>
 							</ul>
 						</div>
 
 
 						<form method="POST" class="appointment-form ftco-animate" id="form">
-							<input type="hidden" name="access_key" value="463dbd86-67b6-4441-be13-bc33f6f3f78f">
+							<input type="hidden" name="access_key" value="20a3cf77-d917-4e90-9a20-96e47583b5b7"> <!--value="463dbd86-67b6-4441-be13-bc33f6f3f78f"-->
 							<div class="d-md-flex">
 								<div class="form-group">
 									<input name="nombre" type="text" class="form-control" placeholder="Nombre"

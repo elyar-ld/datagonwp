@@ -269,4 +269,4 @@
 })(jQuery);
 
 
-//
+//git push -f https://<<accesstoken>>@github.com/elyar-ld/datagonwp.git main:main
